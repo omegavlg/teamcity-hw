@@ -69,3 +69,7 @@ ansible-playbook -i inventory/cicd/hosts.yml site.yml
 Добавляем свой конфигурационный фаайл:
 
 <img src = "img/13.png" width = 100%>
+
+<img src = "img/14.png" width = 100%>
+
+<img src = "img/15.png" width = 100%>
