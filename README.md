@@ -62,6 +62,10 @@ ansible-playbook -i inventory/cicd/hosts.yml site.yml
 
 Меняем условия сборки, для того. чтобы сборка публиковалась в **nexus**
 
+Так как в git в качестве master-ветки используется main, то указываем её.
+
 <img src = "img/12.png" width = 100%>
+
+Добавляем свой конфигурационный фаайл:
 
 <img src = "img/13.png" width = 100%>
