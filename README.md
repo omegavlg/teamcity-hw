@@ -86,3 +86,17 @@ ansible-playbook -i inventory/cicd/hosts.yml site.yml
 
 <img src = "img/18.png" width = 100%>
 
+Создаем ветку feature/add_reply в репозитории.
+Добавляем новый метод для класса Welcomer:
+```
+public String getReply() {
+    return "You have the heart of a hunter, brave and true.";
+}
+```
+Дополним тест для нового метода на поиск слова hunter в новой реплике.
+```
+@Test
+public void welcomerSaysReply() {
+	assertThat(welcomer.getReply(), containsString("hunter"));
+}
+```
