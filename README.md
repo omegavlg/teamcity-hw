@@ -14,7 +14,7 @@
 
 <img src = "img/01.png" width = 100%>
 
-<img src = "img/01.png" width = 100%>
+<img src = "img/02.png" width = 100%>
 
 
 
@@ -23,6 +23,6 @@
 ```
 ansible-playbook -i inventory/cicd/hosts.yml site.yml
 ```
+<img src = "img/03.png" width = 100%>
 
-
-<img src = "img/01.png" width = 100%>
+<img src = "img/04.png" width = 100%>
