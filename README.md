@@ -116,3 +116,8 @@ git merge feature/add_reply
 
 <img src = "img/21.png" width = 100%>
 <img src = "img/22.png" width = 100%>
+
+
+Все настройки проекта сохранены в репозитории
+
+<img src = "img/07.png" width = 100%>
