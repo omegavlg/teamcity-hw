@@ -99,3 +99,6 @@ public void welcomerSaysReply() {
 	assertThat(welcomer.getReply(), containsString("hunter"));
 }
 ```
+Сборка автоматически запустилась.
+
+<img src = "img/19.png" width = 100%>
