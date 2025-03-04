@@ -48,10 +48,15 @@ ansible-playbook -i inventory/cicd/hosts.yml site.yml
 
 <img src = "img/06.png" width = 100%>
 
-Создаем **Build Configurations**
+Создаем **Build Configurations** на основе fork-репозитория https://github.com/omegavlg/example-teamcity
 
 <img src = "img/08.png" width = 100%>
 
 <img src = "img/09.png" width = 100%>
 
 <img src = "img/10.png" width = 100%>
+
+В fork проекте, в файле pom.xml меняем адрес **nexus** и выполняем первую сборку:
+
+<img src = "img/11.png" width = 100%>
+
