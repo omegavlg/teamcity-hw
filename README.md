@@ -61,3 +61,7 @@ ansible-playbook -i inventory/cicd/hosts.yml site.yml
 <img src = "img/11.png" width = 100%>
 
 Меняем условия сборки, для того. чтобы сборка публиковалась в **nexus**
+
+<img src = "img/12.png" width = 100%>
+
+<img src = "img/13.png" width = 100%>
