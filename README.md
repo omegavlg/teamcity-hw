@@ -62,7 +62,7 @@ ansible-playbook -i inventory/cicd/hosts.yml site.yml
 
 Меняем условия сборки, для того. чтобы сборка публиковалась в **nexus**
 
-Так как в git в качестве master-ветки используется main, то указываем её.
+Так как в **git** в качестве **master-ветки** используется **main**, то указываем её.
 
 <img src = "img/12.png" width = 100%>
 
@@ -86,14 +86,13 @@ ansible-playbook -i inventory/cicd/hosts.yml site.yml
 
 <img src = "img/18.png" width = 100%>
 
-Создаем ветку feature/add_reply в репозитории.
-Добавляем новый метод для класса Welcomer:
+Создаем ветку **feature/add_reply** в репозитории. Добавляем новый метод для класса **Welcomer**:
 ```
 public String getReply() {
     return "You have the heart of a hunter, brave and true.";
 }
 ```
-Дополним тест для нового метода на поиск слова hunter в новой реплике.
+Дополним тест для нового метода на поиск слова **hunter** в новой реплике.
 ```
 @Test
 public void welcomerSaysReply() {
