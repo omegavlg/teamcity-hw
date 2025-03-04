@@ -102,3 +102,12 @@ public void welcomerSaysReply() {
 Сборка автоматически запустилась.
 
 <img src = "img/19.png" width = 100%>
+
+Выполняем слияние веток с помощью **merge**:
+```
+git checkout main
+```
+```
+git merge feature/add_reply
+```
+<img src = "img/20.png" width = 100%>
