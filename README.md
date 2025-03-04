@@ -82,3 +82,7 @@ ansible-playbook -i inventory/cicd/hosts.yml site.yml
 
 <img src = "img/17.png" width = 100%>
 
+Выполняем миграцию build configuration в репозиторий.
+
+<img src = "img/18.png" width = 100%>
+
