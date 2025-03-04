@@ -123,4 +123,4 @@ git merge feature/add_reply
 <img src = "img/07.png" width = 100%>
 
 
-Ссылка не [репозиторий|https://github.com/omegavlg/example-teamcity]. 
+Ссылка не [репозиторий](https://github.com/omegavlg/example-teamcity). 
