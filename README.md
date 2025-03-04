@@ -111,3 +111,8 @@ git checkout main
 git merge feature/add_reply
 ```
 <img src = "img/20.png" width = 100%>
+
+После коммита слияния, автоматически запустилась сборка и в появился артефакт с новой версией.
+
+<img src = "img/21.png" width = 100%>
+<img src = "img/22.png" width = 100%>
