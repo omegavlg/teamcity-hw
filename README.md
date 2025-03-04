@@ -48,3 +48,10 @@ ansible-playbook -i inventory/cicd/hosts.yml site.yml
 
 <img src = "img/06.png" width = 100%>
 
+Создаем **Build Configurations**
+
+<img src = "img/08.png" width = 100%>
+
+<img src = "img/09.png" width = 100%>
+
+<img src = "img/10.png" width = 100%>
